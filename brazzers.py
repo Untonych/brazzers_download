@@ -3,10 +3,7 @@
 import os
 import re
 import httplib2
-from bs4 import (
-    BeautifulSoup,
-    SoupStrainer,
-)
+from bs4 import BeautifulSoup
  
  
 class Brazzers(object):
@@ -45,3 +42,4 @@ class Brazzers(object):
  
  
 Brazzers().daily()
+
