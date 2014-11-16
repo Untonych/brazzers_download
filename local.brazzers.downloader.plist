@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>InitGroups</key>
+	<false/>
+	<key>Label</key>
+	<string>local.brazzers.downloader</string>
+	<key>OnDemand</key>
+	<true/>
+	<key>Program</key>
+	<string>/Users/pornhero/workspace/brazzers/brazzers.rb</string>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>StandardErrorPath</key>
+	<string>/Users/pornhero/Documents/stderr</string>
+	<key>StandardOutPath</key>
+	<string>/Users/pornhero/Documents/stdout</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>05</integer>
+			<key>Minute</key>
+			<integer>00</integer>
+		</dict>
+	</array>
+	<key>UserName</key>
+	<string>pornhero</string>
+</dict>
+</plist>
