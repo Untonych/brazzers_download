@@ -11,9 +11,13 @@ scenes.each do |s|
 end
 titles.uniq!.compact!
 base = 'http://fastpiratebay.com/search/'
-titles.first(2).each do |title|
+titles.first(4).each do |title|
+  begin
   search = mechanize.get("#{base}#{title.gsub(' ','%20')}")
   puts "#{base}#{title.gsub(' ','%20')}"
   magnet_link = search.link_with(href: /magnet/).href
   system("open #{magnet_link}")  
+  rescue NoMethodError
+    puts "No encontrado: #{title}"
+  end
 end
