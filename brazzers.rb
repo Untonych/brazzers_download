@@ -10,7 +10,7 @@ scenes.each do |s|
   end
 end
 titles.uniq!.compact!
-base = 'http://fastpiratebay.com/search/'
+base = 'http://oldpiratebay.org/search.php?q'
 titles.first(4).each do |title|
   begin
   search = mechanize.get("#{base}#{title.gsub(' ','%20')}")
